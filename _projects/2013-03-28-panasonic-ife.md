@@ -16,7 +16,7 @@ The project with Panasonic is a very large scale, long term collaboration which 
 This started out with the work for building the UI in the Ex3 in-flight entertainment (IFE) system. With the latest version build on android, allowed for touch interaction and wireless internet in the skies. We could pull in a lot of familiar services, especially for those long hours up in the air.
 
 {% include post-components/gallery.html
-	columns = 2
+	columns = 1
 	full_width = true
 	images = "
         /images/projects/panasonic-ex3-ife-wireframes.png,
@@ -34,13 +34,25 @@ Part of the project was to create an automated process for airline without addit
 
 Looking at the CMS itself, it was a tool that is build with intention of speed and performance in mind. The transition into a lot more code based design (in HTML/CSS) took hold, taking an inspirational play from flat design, which fits the criteria of cross browser performance and implementation. It was about designing a tool to build and not hinder performance with bloated UI. Working with engineers remotely was an interesting challenge, especially when there are more than a 2 time zones.
 
-![Panasonic Ex3 IFE site builder](/images/projects/panasonic-ex3-sb.png 'Panasonic Ex3 IFE site builder')
+{% include post-components/gallery.html
+	columns = 1
+	full_width = true
+	images = "
+        /images/projects/panasonic-ex3-sb.png
+	"
+%}
 
 ### Extending the portal capability
 
 To illustrate the capability to airlines, the next step was to build a demo portal that served as a foundation for airlines to build upon. I helped define responsive experience on the portal by re-building the front end and the site structure of the entire site based on previous versions. It also sparked a start to creating a useful content matrix document for developers, project managers and QA to references from by taking an object oriented approach in organizing content, feature, and help shape the roadmap.
 
-![Panasonic Ex3 IFE portal](/images/projects/panasonic-ex3-ife-portal.png 'Panasonic Ex3 IFE portal')
+{% include post-components/gallery.html
+	columns = 1
+	full_width = true
+	images = "
+        /images/projects/panasonic-ex3-ife-portal.png
+	"
+%}
 
 ### Update ###
 
