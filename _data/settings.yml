@@ -25,7 +25,7 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: ''
+  email_address: 'hi@jonathanyap.com'
   form_action: 'https://formspree.io/xrgyelvl'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
