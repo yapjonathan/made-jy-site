@@ -4,7 +4,7 @@
 
 		{% if site.data.settings.header_settings.logo_image %}
 		<a href="{{ site.baseurl }}/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
+			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img" id="home_logo" data-profile-url1="{{ site.data.settings.header_settings.logo_image | relative_url }}" data-profile-url2="{{ site.baseurl }}/images/logo-profile-hover.png" onmouseenter="toggleHero()" onmouseout="toggleHero()">
 		</a>
 		{% else %}
 		<a href="{{ site.baseurl }}/" class="header__title">
@@ -35,3 +35,19 @@
 	</div>
 
 </header>
+
+<script type="text/javascript">
+	// hacky hover
+	var profile_img = document.getElementById("home_logo");
+	var swag = false;
+	
+	function toggleHero() {
+		if (swag) {
+			profile_img.src = profile_img.dataset.profileUrl1;
+			swag = false;
+		} else {
+			profile_img.src = profile_img.dataset.profileUrl2;
+			swag = true;
+		}
+	}
+	</script>

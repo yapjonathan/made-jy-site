@@ -82,8 +82,8 @@
 	<div class="wrap grid__2-col">
 
 		
-		<a href="/" class="header__title">
-			Jonathan Yap
+		<a href="/" class="header__logo">
+			<img src="/images/logo-profile.png" class="header__logo__img" id="home_logo" data-profile-url1="/images/logo-profile.png" data-profile-url2="/images/logo-profile-hover.png" onmouseenter="toggleHero()" onmouseout="toggleHero()">
 		</a>
 		
 
@@ -106,6 +106,22 @@
 	</div>
 
 </header>
+
+<script type="text/javascript">
+	// hacky hover
+	var profile_img = document.getElementById("home_logo");
+	var swag = false;
+	
+	function toggleHero() {
+		if (swag) {
+			profile_img.src = profile_img.dataset.profileUrl1;
+			swag = false;
+		} else {
+			profile_img.src = profile_img.dataset.profileUrl2;
+			swag = true;
+		}
+	}
+	</script>
 
 
 	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg">
@@ -355,13 +371,13 @@
     </div>
 
     <div class="about__content">
-      <h2 class="title">Hey, I’m Jonathan, nice to meet you!</h2>
-      <p class="subtitle subtitle--light">I'm a designer, storyteller, and a father of two boys.
+      <h2 class="title">Hey, I’m Jonathan!</h2>
+      <p class="subtitle subtitle--light">I'm a product designer, storyteller, and father of two boys.
       </p>
 
-      <p>Design is inclusive, but designers bring the best out of it through craft and conversation. That's what I believe design can do to elevate people and businesses.</p>
-      <p>In the past 10+ years, my career has taken me to many places around the world, working with complex ecosystems and large scale global products. From facilitating co-creation with executive teams to research on the ground with front-liners, to company-wide digital transformation, there's always a great story to tell. I bring them together through design, research, data, strategy, and technology.</p>
-      <p>Through self-discovery, I'm learning how to scale impact through people by designing relationships and mentorship. My passion is in the community, and I find satisfaction in connecting people. I share a lot by nature because good knowledge is worth sharing. Host and volunteer for UXSG.</p>
+      <!-- <p>Design is inclusive, but designers bring the best out of it through craft and conversation. That's what I believe design can do to elevate people and businesses.</p> -->
+      <p>From shipping global products, to facilitating co-creation, to research on the ground, there's always a great story to tell. I bring them together through design, research, data, strategy, and technology.</p>
+      <p>Over the past 10+ years, I've learnt to scale impact through people by designing relationships and mentorship. My passion is in the community, and I find satisfaction in connecting people. I share a lot by nature because good knowledge is worth sharing. Host and volunteer for UXSG.</p>
 
       <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
     </div>
@@ -384,7 +400,7 @@
 
 		<div class="footer__copyright">
 			
-			<p>Product Designer, Story Teller</p>
+			<p>Product Designer, Storyteller</p>
 			
 			<span class="footnote">© 2020 Jonathan Yap</span>
 			<!-- <a href="https://jekyllthemes.io" class="footnote" target="_blank">Jekyll Themes</a> -->

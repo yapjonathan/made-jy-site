@@ -3,8 +3,8 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
-  logo_width: 100
+  logo_image: /images/logo-profile.png
+  logo_width: 72
 
 # menu_settings:
 #   menu_items:
@@ -16,7 +16,7 @@ header_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: Product Designer, Story Teller
+  tagline: Product Designer, Storyteller
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
