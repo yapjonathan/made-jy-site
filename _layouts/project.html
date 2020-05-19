@@ -36,14 +36,14 @@ layout: default
 	
 				{% if page.previous.url %}
 				  <li class="post-nav--prev">
-					<a class="post-nav--text" href="{{page.previous.url}}">👈 {{page.previous.title}}</a>
+					<a class="post-nav--text --left" href="{{page.previous.url}}">{{page.previous.title}}</a>
 				  </li>
 				{% endif %}
 		  
 		  
 			  {% if page.next.url %}
 				<li class="post-nav--next">
-				  <a class="post-nav--text" href="{{page.next.url}}">{{page.next.title}} 👉</a>
+				  <a class="post-nav--text --right" href="{{page.next.url}}">{{page.next.title}}</a>
 				</li>
 			  {% endif %}
 	  
