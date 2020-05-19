@@ -33,7 +33,7 @@ featured_image: /images/social.jpg
 
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
-			<article class="project__preview">
+			<article class="project__preview" {% if project.project_id %}id="{{project.project_id}}"{% endif %}>
 				<h3 class="project__title"><a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
