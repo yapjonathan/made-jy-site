@@ -18,9 +18,7 @@ This started out with the work for building the UI in the Ex3 in-flight entertai
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "
-        /images/projects/panasonic-ex3-ife-wireframes.png,
-        /images/projects/panasonic-ex3-sb-logo.png
+	images = "/images/projects/panasonic-ex3-ife-wireframes.png,/images/projects/panasonic-ex3-sb-logo.png
 	"
 %}
 
@@ -37,8 +35,7 @@ Looking at the CMS itself, it was a tool that is build with intention of speed a
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "
-        /images/projects/panasonic-ex3-sb.png
+	images = "/images/projects/panasonic-ex3-sb.png
 	"
 %}
 
@@ -49,8 +46,7 @@ To illustrate the capability to airlines, the next step was to build a demo port
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "
-        /images/projects/panasonic-ex3-ife-portal.png
+	images = "/images/projects/panasonic-ex3-ife-portal.png
 	"
 %}
 
@@ -63,11 +59,7 @@ It's truly a remarkable feeling to hear and experience how the foundation laid o
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "
-        /images/projects/panasonic-ife-sia1.jpg,
-        /images/projects/panasonic-ife-sia3.jpg,
-        /images/projects/panasonic-ife-sia3.jpg,
-        /images/projects/panasonic-ife-sia4.jpg
+	images = "/images/projects/panasonic-ife-sia1.jpg,/images/projects/panasonic-ife-sia3.jpg,/images/projects/panasonic-ife-sia3.jpg,/images/projects/panasonic-ife-sia4.jpg,
 	"
 %}
 

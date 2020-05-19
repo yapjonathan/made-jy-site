@@ -22,8 +22,7 @@ Aside from the logo itself, I created a logotype that will accompany the app ico
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "
-        /images/projects/tronsquare-logotype.png
+	images = "/images/projects/tronsquare-logotype.png
 	"
 %}
 
@@ -34,8 +33,7 @@ Early wireframe did helped the team understand and improve the entire user journ
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "
-        /images/projects/tronsquare-wireframe.png
+	images = "/images/projects/tronsquare-wireframe.png
 	"
 %}
 
@@ -48,8 +46,7 @@ Getting the right colour and glow wasn't easy. It took quite a lot of effort to 
 {% include post-components/gallery.html
 	columns = 1
 	full_width = false
-	images = "
-        /images/projects/tronsquare-lights.png
+	images = "/images/projects/tronsquare-lights.png
 	"
 %}
 
@@ -60,7 +57,6 @@ Finally the final outlook of the app, in all its pixel glory. It was given very 
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "
-        /images/projects/tronsquare-app.png
+	images = "/images/projects/tronsquare-app.png
 	"
 %}
