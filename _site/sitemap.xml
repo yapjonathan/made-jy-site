@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/thanks</loc>
-<lastmod>2020-05-19T12:10:08+08:00</lastmod>
+<lastmod>2020-05-19T12:50:47+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/project/worldpay</loc>
@@ -23,6 +23,10 @@
 <url>
 <loc>http://localhost:4000/project/emotivu</loc>
 <lastmod>2014-02-05T08:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/project/roomorama</loc>
+<lastmod>2015-11-01T08:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/</loc>
