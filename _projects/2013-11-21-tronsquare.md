@@ -4,6 +4,7 @@ subtitle: Light cycle game using location check-ins
 date: 2013-11-21 08:00:00 +08:00
 description: This is what happen when you mash up the light cycle game from Tron and Foursquare. The idea of Tronsquare first came at the Unlock London Hackathon and the following day it won in the category of Most Innovative Application.
 featured_image: tronsquare-intro.jpg
+project_id: tronsquare
 accent_color: '#56b9e5'
 gallery_images:
   - tronsquare-intro.jpg

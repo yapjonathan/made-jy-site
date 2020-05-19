@@ -4,6 +4,7 @@ subtitle: Building the foundation for entertainment in the skies
 date: 2013-03-28 08:00:00 +08:00
 description: The project with Panasonic is a very large scale, long term collaboration which involves a lot of teams across the world. I was involved in building the experience from ground up and helped shape the standards for a complex B2B content management system (CMS) for Panasonic's new In-Flight Entertainment solution.
 featured_image: panasonic-ex3-ife-design.png
+project_id: panasonic
 accent_color: '#008fe3'
 gallery_images:
   - panasonic-ex3-ife-design.png
