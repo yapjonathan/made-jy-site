@@ -30,5 +30,26 @@ layout: default
 
 	</section>
 
+	<nav class="post-nav">
+		<div class="wrap">
+			<ul class="post-nav--lists">
+	
+				{% if page.previous.url %}
+				  <li class="post-nav--prev">
+					<a class="post-nav--text" href="{{page.previous.url}}">👈 {{page.previous.title}}</a>
+				  </li>
+				{% endif %}
+		  
+		  
+			  {% if page.next.url %}
+				<li class="post-nav--next">
+				  <a class="post-nav--text" href="{{page.next.url}}">{{page.next.title}} 👉</a>
+				</li>
+			  {% endif %}
+	  
+			  </ul>
+		</div>
+	  </nav>
+
 	{% include section__about.html divider=true %}
 </div>

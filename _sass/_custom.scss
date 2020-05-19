@@ -19,3 +19,30 @@
     padding: 2em;
     }
 }
+
+.post-nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  &--lists {
+    @extend .grid__2-col;
+    grid-template-areas: 'l r';
+  }
+
+  &--prev {
+    grid-area: l;
+    align-self: start;
+    list-style: none;
+  }
+
+  &--next {
+    grid-area: r;
+    align-self: end;
+    text-align: right;
+    list-style: none;
+  }
+
+  &--text {
+    @extend .button--text
+  }
+}
