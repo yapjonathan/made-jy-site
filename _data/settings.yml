@@ -26,7 +26,7 @@ post_settings:
 
 contact_settings:
   email_address: ''
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  form_action: 'https://formspree.io/xrgyelvl'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Get in Touch'
