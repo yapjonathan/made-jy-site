@@ -1,0 +1,21 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Custom
+
+// - - - - - - - - - - - - - - - - - -
+
+#emotivu {
+  $accent-color-emotivu: #004667;
+
+  .project__image,
+  .post__featured-image {
+    background-color: $accent-color-emotivu;
+    padding: 6vw;
+  }
+
+  #gallery-2 img[src*=".png"],
+  #gallery-2 img[src*=".jpg"]{
+    background-color: $accent-color-emotivu;
+    padding: 2em;
+    }
+}
