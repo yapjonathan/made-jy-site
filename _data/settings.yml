@@ -16,7 +16,7 @@ header_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: Product Designer, Storyteller
+  tagline: Design • People • Community
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
@@ -46,7 +46,7 @@ social_settings:
   apple_url: ''
   android_url: ''
   tumblr_url: ''
-  # dribbble_url: 'https://dribbble.com/yapjonathan'
+  dribbble_url: 'https://dribbble.com/yapjonathan'
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
