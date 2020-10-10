@@ -59,6 +59,7 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/yapjonathan12/'
+  telegram_url: ' https://t.me/yapjonathan'
 
 color_settings:
   background_color: '#ffffff'
