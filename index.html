@@ -3,6 +3,7 @@ layout: default
 overtitle: Jonathan Yap
 title: Design • People • Community
 description: Community focused & connecting people. Currently a Senior Lead, Product Design at WeWork.
+description_2: Started <a href="http://designpaytransparency.asia" target="_blank">Design Pay Transparency</a>.
 featured_image: /images/social.jpg
 ---
 
@@ -20,7 +21,7 @@ featured_image: /images/social.jpg
 			</div>
 
 			<p class="intro subtitle--light">
-				{{ page.description }}
+				{{ page.description }} {{ page.description_2}}
 				<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
 			</p>
 		</div>
@@ -45,7 +46,7 @@ featured_image: /images/social.jpg
 				<div class="project__content grid" style="border-color: {{ accent_color }}">
 					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
 					<p class="project__description --small">
-						{{ project.description }}
+						{{ project.description }} 
 						<a href="{{ project.url | relative_url }}" class="project__link button--text --right"
 							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
 					</p>
