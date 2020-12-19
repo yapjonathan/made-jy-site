@@ -5,16 +5,16 @@
     <div class="contact__wrap">
       <header class="contact__header">
         <h2 class="title">Get In Touch</h2>
-        <p class="subtitle--light">Prefer using email? Say hi at <a
-            href="mailto: {{ site.data.settings.contact_settings.email_address }}">{{ site.data.settings.contact_settings.email_address }}</a>
+        <p class="subtitle--light">Say hi at <a
+            href="mailto: {{ site.data.settings.contact_settings.email_address }}">{{ site.data.settings.contact_settings.email_address }}</a> or reach out on other platforms below:
         </p>
         <br>
         {% include component-socials.html %}
         <br>
-        <p><small>I'm usually active on Linkedin.</small></p>
+        <p>I'm usually a little more active on Linkedin.</p>
       </header>
 
-      <form method="POST" action="{{ site.data.settings.contact_settings.form_action }}" class="contact__form">
+      <!-- <form method="POST" action="{{ site.data.settings.contact_settings.form_action }}" class="contact__form">
         <div class="input-group">
           <label for="name">Your Name</label>
           <input type="text" name="name" id="name" placeholder="What should I call you?" />
@@ -37,7 +37,7 @@
         <div class="input-submit">
           <input type="submit" class="button--fill" value="{{ site.data.settings.contact_settings.send_button_text }}">
         </div>
-      </form>
+      </form> -->
     </div>
   </div>
 </section>
